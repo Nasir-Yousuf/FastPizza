@@ -13,6 +13,7 @@ function SearchOrder() {
   return (
     <form onSubmit={(e) => handleSubmit(e)}>
       <input
+        className="input"
         type="text"
         placeholder="Search Here by ID #"
         value={query}

@@ -13,5 +13,8 @@ export default [
         fetch: "readonly",
       },
     },
+    rules: {
+      "no-unused-vars": "warn", // 👈 ADD THIS
+    },
   },
 ];
